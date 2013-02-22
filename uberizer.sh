@@ -13,7 +13,7 @@ echo "########################";
 read choice
 case $choice in
 
-a) while :
+A) while :
 do
 clear
 echo "##########################################";
@@ -25,7 +25,7 @@ exit 0 ;;
 read choice
 case $choice in
 
-b) while :
+B) while :
 do
 clear
 echo "##########################################";
@@ -35,7 +35,7 @@ exit 0 ;;
 read choice
 case $choice in
 
-c) while :
+C) while :
 do
 clear
 echo "##########################################";
@@ -60,7 +60,7 @@ sleep 5
 fi
 ;;
 
-q) clear
+Q) clear
 echo "Thank you for (ab)using the Uberizer, goodbye!";
 sleep 5
 exit 0 ;;
