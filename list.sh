@@ -1,9 +1,7 @@
 #!/bin/bash
-VER="1"
+VER="1.0"
 # ZDiR [beta]
 # (C) 2013 Jakub Skrzypnik <skrzyp>
-# TODO: Exceptions handling.
-# TODO: Paging long listings
 usage(){
   echo "ZDiR Lister v"$VER" by skrzyp for HcH's Uberizer"
 	echo "Usage: list [-hftpl] [-i INPUT_TEXT] [-d DIR]"
