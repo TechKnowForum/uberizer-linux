@@ -84,7 +84,6 @@ echo "Setting permissions ..."
 chmod 6755 /system/bin/su
 chmod 6755 /system/xbin/su
 chmod 755 /system/app/Superuser.apk
-echo.
 
 :root40
 echo "Root for Android 4.0.x by HcH"
@@ -101,7 +100,7 @@ echo "Copying SU xbin ..."
 cp changer_files/su11/su /system/xbin/su
 echo "Copying Superuser app ..."
 cp changer_files/su11/Superuser.apk /system/app/Superuser.apk
-echo "Settings owner ..."
+echo "Setting owner ..."
 chown root.root /system/xbin/su
 echo "Setting permissions ..."
 chmod 6755 /system/xbin/su
