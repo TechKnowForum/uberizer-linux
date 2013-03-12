@@ -155,9 +155,7 @@ read choice
 case $choice in
 
 1)
-ls /sdcard/FirmwareInstall/packages/fs_patch/root_patch/lib/modules/2.6.32.9-default/rt3070sta.ko > /dev/null;
-if [ $? -eq 2 ]
-then
+if [ ! -f /sdcard/FirmwareInstall/packages/fs_patch/root_patch/lib/modules/2.6.32.9-default/rt3070sta.ko ] ; then
 cp /sdcard/changer_files/rt3070sta.ko /sdcard/FirmwareInstall/packages/fs_patch/root_patch/lib/modules/2.6.32.9-default/rt3070sta.ko
 clear
 echo "Uberoid has RT3070v2 support now"
