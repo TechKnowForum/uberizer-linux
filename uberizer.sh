@@ -1,5 +1,7 @@
 #!/bin/sh
+
 adb wait-for-device;
+
 while :
 do
 clear
